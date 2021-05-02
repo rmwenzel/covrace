@@ -9,10 +9,17 @@ output: html_document
 library(dplyr)
 
 # read in blockgroup demographic and provider data
-dem<- read.table('Jan2021_Counts_Dem.txt', sep=" ", header=TRUE, colClasses=c("spatial_id"="character"))
+dem <- read.csv('data/us-dem-counts-jan-2021.csv', header=TRUE, colClasses=c("spatial_id"="character"))
 
-# select columns not needed for model
+# select columns needed for model
 dem <- dem %>% select(spatial_id, BlackNotHispPercent, HispanicPercent, NativePercent, Population, NumProviders)
+
+# note - some blockgroups are missing population data, we're waiting for update
+# from Simply Analytics - we drop values for now
+dem <- na.omit(dem)
+
+# scale independent variables but not offset
+dem <- dem %>% mutate_at(c("BlackNotHispPercent", "HispanicPercent", "NativePercent"), ~(scale(.) %>% as.vector))
 ```
 
 
@@ -21,49 +28,43 @@ library(sf)
 library(sp)
 
 # read in blockgroup geodata
-geom.sf <- st_read('SimplyAnalytics_Shapefiles_2020-11-18_20_10_31_5f74f8625f41c155c6437067d78ca25e.shp')
+geom.sf <- st_read('data/us-test-sites-nov-2020.shp')
 geom.sp <- as(geom.sf, "Spatial")
-geom.df <- slot(geom.sp, "data")
-geom.df <- geom.df  %>% rename(BlackNotHispPercent = VALUE1, HispanicPercent = VALUE2, NativePercent = VALUE0, Population = VALUE3) %>% select(-one_of(c('name')))
 
-### note 
-```
-```{r}
-# missing values in dem df
-dem[which(is.na(dem), arr.ind=TRUE)[ , c("row")], ]
 ```
 
-```{r}
-# missing values in geom df
-geom.df[which(is.na(geom.df), arr.ind=TRUE)[ , c("row")], ]
-```
-
-Currently all missing values in `geom.df` are present in `providers`, so we don't need to merge these two frames.
-
-```{r}
-library(tidyr)
-
-dem <- dem %>% mutate_at(vars(NativePercent, BlackNotHispPercent, HispanicPercent, Population),  replace_na, '0')
-
-dem <- dem %>% mutate_at(vars(BlackNotHispPercent, HispanicPercent, NativePercent, Population, NumProviders), funs(as.numeric))
-
-dem_sc <- dem %>% mutate_at(c("BlackNotHispPercent", "HispanicPercent", "NativePercent"), ~(scale(.) %>% as.vector))
-```
 
 
 ```{r}
 
-library(MASS)
 library(spdep)
 library(CARBayes)
 
-neighbors <-poly2nb(geom.sp,
+if (file.exists("data/neighbors.rds")) {
+neighbors <- readRDS("data/neighbors.rds")
+} else {
+system.time(neighbors <- poly2nb(geom.sp,
                    queen = TRUE,
-                   snap = 0)  
+                   snap = 0)
+            )
+saveRDS(neighbors, file="data/neighbors.rds")
+}
+```
 
-neighbors_mat<-nb2mat(neighbors,
+
+```{r}
+if (file.exists("data/neighbors_mat.rds")) {
+neighbors_mat <- readRDS("data/neighbors_mat.rds")
+} else {
+neighbors_mat<- nb2mat_par(neighbors,
                       zero.policy = TRUE,
                       style = "B")
+saveRDS(neighbors, file="data/neighbors_mat.rds")
+}
+```
 
+```
+
+```{r}
 ns <- S.CARleroux(formula = NumProviders ~ BlackNotHispPercent + HispanicPercent + NativePercent + offset(log(Population + 1)), data = dem_sc, family = "poisson", burnin = 100000, n.sample = 1100000, thin = 100, W = neighbors_mat, prior.mean.beta = rep(0, times = 4), prior.var.beta = rep(100^2, times = 4), prior.tau2 = c(0.01, 0.01))
 ```
