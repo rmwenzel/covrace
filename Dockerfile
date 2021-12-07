@@ -12,3 +12,5 @@ RUN apt-get -y update \
     sf \
     sp \
     spdep
+    
+    sudo dnf install gdal* expat* proj*
