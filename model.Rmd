@@ -9,10 +9,11 @@ script.start <- Sys.time()
 cat("Beginning model script\n")
 
 cat("Loading packages\n")
+library(sp)
 library(rgeos)
 library(dplyr)
+library(tidyr)
 library(sf)
-library(sp)
 library(spdep)
 library(CARBayes)
 
@@ -30,15 +31,27 @@ dem <- na.omit(dem)
 # scale independent variables but not offset
 dem <- dem %>% mutate_at(c("BlackNotHispPercent", "HispanicPercent", "NativePercent"), ~(scale(.) %>% as.vector))
 
-# shrink for testing
-# dem = dem %>% slice(c(0:50000))
 ```
 
 ```{r}
 cat("Creating blockgroup spatial dataframe\n")
 geom.start <- Sys.time()
-# read in blockgroup geodata
+
+# read blockgroup geodata into sf dataframe
 geom.sf <- st_read('data/us-test-sites-nov-2020.shp')
+
+# add state column to facilitate state-by-state analysis
+geom.sf <- geom.sf %>% separate(name, c("first", "second", "state"), sep = ",", remove=FALSE) %>% dplyr::select(-first, -second)
+
+# trim whitespace
+geom.sf$state <- trimws(geom.sf$state)
+
+# subset small state for testing
+state = 'RI'
+cat("Testing on state", state)
+geom.sf <- geom.sf %>% filter(state == state)
+
+# convert to spatial polygons dataframe
 geom.sp <- as(geom.sf, "Spatial")
 
 # drop blockgroups with missing pop
@@ -50,14 +63,15 @@ cat("Time to build spatial dataframe: ", geom.end - geom.start, "\n")
 ```{r}
 # create neighbors list
 neighbors.start <- Sys.time()
-if (file.exists("data/neighbors.rds")) {
+file_path <- paste("data/neighbors_matrix_", state, ".rds", sep='')
+if (file.exists(file_path)) {
   cat("Loading saved neighbors list\n")
-  neighbors <- readRDS("data/neighbors.rds")
+  neighbors <- readRDS(file_path)
   
   if (length(neighbors) != length(geom.sp)) {
     cat("Saved neighbors list incorrect size - rebuilding\n")
     neighbors <- poly2nb(geom.sp, queen = TRUE, snap = 0)
-    saveRDS(neighbors, file="data/neighbors.rds")
+    saveRDS(neighbors, file=file_path)
     neighbors.end <- Sys.time()
     cat("Time to build neighbors list: ", neighbors.end - neighbors.start, "\n")
   }
@@ -65,7 +79,7 @@ if (file.exists("data/neighbors.rds")) {
 } else {
     cat("Building neighbors list\n")
     neighbors <- poly2nb(geom.sp, queen = TRUE, snap = 0)
-    saveRDS(neighbors, file="data/neighbors.rds")
+    saveRDS(neighbors, file=file_path)
     neighbors.end <- Sys.time()
     cat("Time to build neighbors list: ", neighbors.end - neighbors.start, "\n")
 }
@@ -74,14 +88,15 @@ if (file.exists("data/neighbors.rds")) {
 ```{r}
 # create neighbors matrix
 neighbors_mat.start = Sys.time()
-if (file.exists("data/neighbors_mat.rds")) {
+file_path = paste("data/neighbors_matrix_", state, ".rds", sep='')
+if (file.exists(file_path)) {
   cat("Loading saved neighbors matrix\n")
-  neighbors_mat <- readRDS("data/neighbors_mat.rds")
+  neighbors_mat <- readRDS(file_path)
   
   if (length(neighbors_mat) != length(neighbors)) {
     cat("Saved neighbors matrix incorrect size - rebuilding\n")
     neighbors_mat <- nb2mat(neighbors, zero.policy = TRUE, style = "B")
-    saveRDS(neighbors, file="data/neighbors.rds")
+    saveRDS(neighbors, file="data/neighbors_matrix.rds")
     neighbors_mat.end <- Sys.time()
     cat("Time to build neighbors matrix: ", neighbors_mat.end - neighbors_mat.start, "\n")
   }
@@ -89,7 +104,7 @@ if (file.exists("data/neighbors_mat.rds")) {
 } else {
     cat("Building neighbors matrix\n")
     neighbors_mat <- nb2mat(neighbors, zero.policy = TRUE, style = "B")
-    saveRDS(neighbors_mat, file="data/neighbors_mat.rds")
+    saveRDS(neighbors_mat, file=file_path)
     neighbors_mat.end <- Sys.time()
     cat("Time to build neighbors matrix: ", neighbors_mat.end - neighbors_mat.start, "\n")
 }
@@ -98,35 +113,33 @@ if (file.exists("data/neighbors_mat.rds")) {
 ```{r}
 # run model
 model.start = Sys.time()
-if (file.exists("data/ns.rds")) {
+file_path = paste("data/model_", state, ".rds", sep='')
+if (file.exists(file_path)) {
   print("Loading saved model\n")
-  ns <- readRDS("data/ns.rds")
+  model <- readRDS(file_path)
   
   if (length(ns$fitted.values) != length(neighbors_mat)) {
     print("Saved model incorrect size - refitting\n")
-    ns <- S.CARleroux(formula = NumProviders ~ BlackNotHispPercent + HispanicPercent + NativePercent + offset(log(Population + 1)), 
+    model <- S.CARleroux(formula = NumProviders ~ BlackNotHispPercent + HispanicPercent + NativePercent + offset(log(Population + 1)), 
                   data = dem, family = "poisson", burnin = 100000, n.sample = 1100000, thin = 100, W = neighbors_mat, 
                   prior.mean.beta = rep(0, times = 4), prior.var.beta = rep(100^2, times = 4), prior.tau2 = c(0.01, 0.01))
-    saveRDS(neighbors, file="data/ns.rds")
+    saveRDS(model, file=file_path)
     model.end <- Sys.time()
     cat("Time to fit model: ", model.end - model.start, "\n")
   }
   
 } else {
-    ns <- S.CARleroux(formula = NumProviders ~ BlackNotHispPercent + HispanicPercent + NativePercent + offset(log(Population + 1)), 
+    model <- S.CARleroux(formula = NumProviders ~ BlackNotHispPercent + HispanicPercent + NativePercent + offset(log(Population + 1)), 
                   data = dem, family = "poisson", burnin = 100000, n.sample = 1100000, thin = 100, W = neighbors_mat, 
                   prior.mean.beta = rep(0, times = 4), prior.var.beta = rep(100^2, times = 4), prior.tau2 = c(0.01, 0.01))
+    saveRDS(model, file=file_path)
     model.end <- Sys.time()
     cat("Time to fit model: ", model.end - model.start, "\n")
 }
 
 print("Model Summary\n")
 # print model summary
-print(ns)
-
-# save model
-saveRDS(neighbors, file="data/ns.rds")
-saveRDS(ns, file="data/ns.rds")
+print(model)
 
 # print script total run time
 script.end <- Sys.time()

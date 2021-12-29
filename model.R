@@ -24,7 +24,7 @@ dem <- na.omit(dem)
 # scale independent variables but not offset
 dem <- dem %>% mutate_at(c("BlackNotHispPercent", "HispanicPercent", "NativePercent"), ~(scale(.) %>% as.vector))
 
-# command line arguments
+# command line arguments: size, state
 args <- commandArgs(trailingOnly = TRUE)
 # size of dataframe
 size <- args[1]
@@ -33,13 +33,14 @@ if (size != 'all') {
     indices <- sample.int(nrow(dem), size)
     dem = dem %>% slice(c(0:size))
 }
-# value for rho model parameter - fixed numerical value in [0,1] saves run time, if NULL rho is estimated
-rho_val <- as.numeric(args[2])
-if (is.na(rho_val)) {
-    rho_val = NULL
+
+# value for state, if NULL model all states
+state <- as.numeric(args[2])
+if (is.na(state)) {
+    state = NULL
 }
 
-cat("Rho val = ", rho_val, "\n")
+cat("State = ", state, "\n")
 
 cat("Total blockgroups = ", nrow(dem), "\n")
 cat("Number of blockgroups selected = ", size, "\n")
@@ -117,8 +118,7 @@ if (file.exists("data/ns.rds")) {
     cat("Saved model incorrect size - refitting\n")
     ns <- S.CARleroux(formula = NumProviders ~ BlackNotHispPercent + HispanicPercent + NativePercent + offset(log(Population + 1)), 
                   data = dem, family = "poisson", burnin = 100000, n.sample = 1100000, thin = 100, W = neighbors_mat, 
-                  prior.mean.beta = rep(0, times = 4), prior.var.beta = rep(100^2, times = 4), prior.tau2 = c(0.01, 0.01),
-                  rho = rho_val)
+                  prior.mean.beta = rep(0, times = 4), prior.var.beta = rep(100^2, times = 4), prior.tau2 = c(0.01, 0.01))
     saveRDS(neighbors, file="data/ns.rds")
     model.end <- proc.time()
     cat("Time to fit model: ", (model.end - model.start)[3], "\n")
@@ -127,7 +127,7 @@ if (file.exists("data/ns.rds")) {
 } else {
     ns <- S.CARleroux(formula = NumProviders ~ BlackNotHispPercent + HispanicPercent + NativePercent + offset(log(Population + 1)), 
                   data = dem, family = "poisson", burnin = 100000, n.sample = 1100000, thin = 100, W = neighbors_mat, 
-                  prior.mean.beta = rep(0, times = 4), prior.var.beta = rep(100^2, times = 4), prior.tau2 = c(0.01, 0.01), rho = rho_val)
+                  prior.mean.beta = rep(0, times = 4), prior.var.beta = rep(100^2, times = 4), prior.tau2 = c(0.01, 0.01))
     model.end <- proc.time()
     cat("Time to fit model: ", (model.end - model.start)[3], "\n")
 }
