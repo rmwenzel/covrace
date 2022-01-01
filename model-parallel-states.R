@@ -10,6 +10,17 @@ library(tidyr)
 library(sf)
 library(spdep)
 library(CARBayes)
+library(doMPI)
+
+### Set up parallelization
+##
+#
+
+# create MPI cluster objects for states
+cl <- startMPIcluster(count=50)
+
+# register cluster with foreach - sets doMPI as parallel backend
+registerDoMPI(cl)
 
 ### Demographic data
 ##
@@ -43,13 +54,11 @@ geom.sf <- st_read('data/us-test-sites-nov-2020-with-neighbors.shp')
 # filter based on demographic dataframe
 geom.sf <- geom.sf[geom.sf$spatial_id %in% dem$spatial_id, ]
 
-# state name for single state analysis
-args <- commandArgs(trailingOnly = TRUE)
+### Begin parallel loop over states
+##
+#
 
-this_state <- args[1]
-if (is.na(this_state)) {
-  stop("State name not provided as command line argument")
-}
+for (this_state in unique(geom.sf$state)){
 
 cat("Beginning analysis on US state", this_state)
 geom.sf <- geom.sf %>% filter(state == this_state)
@@ -165,4 +174,16 @@ print(model)
 # print script total run time
 script.end <- Sys.time()
 cat("Script complete - total elapsed time: ", (script.end - script.start)[3], "\n")
+
+# close cluster
+closeCluster(cl)
+
+# dump stdout to output file
 sink()
+}
+
+### exit R session
+##
+#
+
+mpi.quit()
