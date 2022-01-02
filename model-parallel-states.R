@@ -17,7 +17,7 @@ library(doMPI)
 #
 
 # create MPI cluster objects for states
-cl <- startMPIcluster(count=50)
+cl <- startMPIcluster(count=5)
 
 # register cluster with foreach - sets doMPI as parallel backend
 registerDoMPI(cl)
