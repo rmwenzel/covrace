@@ -58,7 +58,8 @@ geom.sf <- geom.sf[geom.sf$spatial_id %in% dem$spatial_id, ]
 ##
 #
 
-for (this_state in unique(geom.sf$state)){
+states <- unique(geom.sf$state)
+foreach(this_state=states) %dopar% {
 
 cat("Beginning analysis on US state", this_state)
 geom.sf <- geom.sf %>% filter(state == this_state)
