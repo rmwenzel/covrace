@@ -17,7 +17,7 @@ library(doMPI)
 #
 
 # create MPI cluster objects for states
-cl <- startMPIcluster(count=5)
+cl <- startMPIcluster()
 
 # register cluster with foreach - sets doMPI as parallel backend
 registerDoMPI(cl)
@@ -54,12 +54,16 @@ geom.sf <- st_read('data/us-test-sites-nov-2020-with-neighbors.shp')
 # filter based on demographic dataframe
 geom.sf <- geom.sf[geom.sf$spatial_id %in% dem$spatial_id, ]
 
-### Begin parallel loop over states
+### Parallel loop over states
 ##
 #
 
+# list of state 2 letter abbreviations
 states <- unique(geom.sf$state)
-foreach(this_state=states) %dopar% {
+
+# begin loop
+foreach(this_state=states, .packages(c("sf", "sp", "dplyr", "spdep", "CARBayes", 
+                                       "rgeos", "tidyr"))) %dopar% {
 
 cat("Beginning analysis on US state", this_state)
 geom.sf <- geom.sf %>% filter(state == this_state)
@@ -176,15 +180,16 @@ print(model)
 script.end <- Sys.time()
 cat("Script complete - total elapsed time: ", (script.end - script.start)[3], "\n")
 
-# close cluster
-closeCluster(cl)
-
 # dump stdout to output file
 sink()
 }
 
-### exit R session
+### Close down
 ##
 #
 
+# close cluster
+closeCluster(cl)
+
+# exit
 mpi.quit()
