@@ -69,20 +69,20 @@ if __name__ == "__main__":
     fit_and_plot(fit_func_power, jobres_df["input_size"], jobres_df["memory"],
              210000, 200000, num_params=3, title=plot_title)
 
-    # power for time
-    plot_title = 'time-power-fit'
-    fit_and_plot(fit_func_power, list(jobres_df["input_size"])[:-2],
-                 list(jobres_df["time"])[:-2], 210000, 200000,
-                 num_params=3, title=plot_title)
-    
-    # quadratic for memory
-    plot_title = 'memory-deg2-fit'
-    fit_and_plot(fit_func_poly, jobres_df["input_size"], jobres_df["memory"],
-                 210000, 200000, num_params=3, title=plot_title)
-    
-    
-    # quadratic for time
-    plot_title = 'time-deg2-fit'
-    fit_and_plot(fit_func_poly, list(jobres_df["input_size"])[:-2],
-                 list(jobres_df["time"])[:-2], 210000, 200000,
-                 num_params=3, title=plot_title)
+    # # power for time
+    # plot_title = 'time-power-fit'
+    # fit_and_plot(fit_func_power, list(jobres_df["input_size"])[:-2],
+    #              list(jobres_df["time"])[:-2], 210000, 200000,
+    #              num_params=3, title=plot_title)
+    #
+    # # quadratic for memory
+    # plot_title = 'memory-deg2-fit'
+    # fit_and_plot(fit_func_poly, jobres_df["input_size"], jobres_df["memory"],
+    #              210000, 200000, num_params=3, title=plot_title)
+    #
+    #
+    # # quadratic for time
+    # plot_title = 'time-deg2-fit'
+    # fit_and_plot(fit_func_poly, list(jobres_df["input_size"])[:-2],
+    #              list(jobres_df["time"])[:-2], 210000, 200000,
+    #              num_params=3, title=plot_title)
