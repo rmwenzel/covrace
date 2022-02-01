@@ -1,0 +1,6073 @@
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) StdEnv
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Beginning model script
+Beginning model script
+Loading packages
+Loading packages
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Beginning model script
+Loading packages
+Loading packages
+Beginning model script
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Loading required package: spData
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Loading required package: spData
+Loading required package: spData
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+Loading required package: MASS
+Loading required package: MASS
+Loading required package: MASS
+Loading required package: MASS
+Loading required package: MASS
+Loading required package: MASS
+Loading required package: MASS
+Loading required package: MASS
+Loading required package: MASS
+Loading required package: MASS
+Loading required package: MASS
+Loading required package: MASS
+Loading required package: MASS
+Loading required package: MASS
+Loading required package: MASS
+
+Attaching package: ‘MASS’
+
+
+Attaching package: ‘MASS’
+
+
+Attaching package: ‘MASS’
+
+
+Attaching package: ‘MASS’
+
+
+Attaching package: ‘MASS’
+
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+
+Attaching package: ‘MASS’
+
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: MASS
+Loading required package: MASS
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: MASS
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: Rcpp
+Loading required package: Rcpp
+Loading required package: Rcpp
+Loading required package: Rcpp
+Loading required package: MASS
+Loading required package: Rcpp
+Loading required package: Rcpp
+Loading required package: Rcpp
+Loading required package: MASS
+Loading required package: MASS
+Loading required package: MASS
+Loading required package: MASS
+Loading required package: MASS
+Loading required package: MASS
+Loading required package: Rcpp
+Loading required package: MASS
+Loading required package: Rcpp
+Loading required package: MASS
+Loading required package: MASS
+Loading required package: MASS
+Loading required package: MASS
+Loading required package: MASS
+Loading required package: MASS
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: MASS
+Loading required package: Rcpp
+
+Attaching package: ‘MASS’
+
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+
+Attaching package: ‘MASS’
+
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: Rcpp
+Loading required package: Rcpp
+Loading required package: Rcpp
+Loading required package: Rcpp
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: Rcpp
+
+Attaching package: ‘MASS’
+
+
+Attaching package: ‘MASS’
+
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: MASS
+
+Attaching package: ‘MASS’
+
+
+Attaching package: ‘MASS’
+
+
+Attaching package: ‘MASS’
+
+Loading required package: Rcpp
+Loading required package: Rcpp
+
+Attaching package: ‘MASS’
+
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: Rcpp
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+
+Attaching package: ‘MASS’
+
+
+Attaching package: ‘MASS’
+
+
+Attaching package: ‘MASS’
+
+
+Attaching package: ‘MASS’
+
+
+Attaching package: ‘MASS’
+
+
+Attaching package: ‘MASS’
+
+
+Attaching package: ‘MASS’
+
+
+Attaching package: ‘MASS’
+
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: Rcpp
+Loading required package: Rcpp
+Loading required package: Rcpp
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: Rcpp
+
+Attaching package: ‘MASS’
+
+Loading required package: Rcpp
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: Rcpp
+Loading required package: Rcpp
+Loading required package: Rcpp
+Loading required package: Rcpp
+Loading required package: Rcpp
+Loading required package: Rcpp
+Loading required package: Rcpp
+Loading required package: Rcpp
+Loading required package: Rcpp
+Loading required package: Rcpp
+Loading required package: MASS
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: Rcpp
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: Rcpp
+Loading required package: MASS
+Loading required package: MASS
+Loading required package: MASS
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: Rcpp
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: MASS
+Loading required package: MASS
+Loading required package: Rcpp
+Loading required package: MASS
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: MASS
+Loading required package: Rcpp
+Loading required package: MASS
+
+Attaching package: ‘MASS’
+
+Loading required package: MASS
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: MASS
+
+Attaching package: ‘MASS’
+
+Loading required package: Rcpp
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: MASS
+Loading required package: Rcpp
+
+Attaching package: ‘MASS’
+
+Loading required package: Rcpp
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: Rcpp
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: Rcpp
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: Rcpp
+Loading required package: Rcpp
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: Rcpp
+Loading required package: MASS
+Loading required package: MASS
+Loading required package: MASS
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: Rcpp
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: Rcpp
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: Rcpp
+Loading required package: MASS
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: Rcpp
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Failed to query server: Operation not permitted
+Failed to query server: Operation not permitted
+Failed to query server: Operation not permitted
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Warning message:
+In system("timedatectl", intern = TRUE) :
+  running command 'timedatectl' had status 1
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Warning message:
+Loading required package: iterators
+In system("timedatectl", intern = TRUE) :
+  running command 'timedatectl' had status 1
+Warning message:
+In system("timedatectl", intern = TRUE) :
+  running command 'timedatectl' had status 1
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: iterators
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: Rmpi
+Loading required package: iterators
+Loading required package: Rmpi
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: Rmpi
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Creating blockgroup demographic dataframe
+Total blockgroups =  217685 
+Creating blockgroup spatial dataframe
+Reading layer `us-test-sites-nov-2020-with-neighbors' from data source 
+  `/gpfs/ysm/home/ena26/covrace/data/us-test-sites-nov-2020-with-neighbors.shp' 
+  using driver `ESRI Shapefile'
+Simple feature collection with 220333 features and 7 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -179.2311 ymin: 17.83151 xmax: 179.8597 ymax: 71.43979
+Geodetic CRS:  WGS 84
+[[1]]
+NULL
+
+[[2]]
+NULL
+
+[[3]]
+NULL
+
+[[4]]
+NULL
+
+[[5]]
+NULL
+
+[[6]]
+NULL
+
+[[7]]
+NULL
+
+[[8]]
+NULL
+
+[[9]]
+NULL
+
+[[10]]
+NULL
+
+[[11]]
+NULL
+
+[[12]]
+NULL
+
+[[13]]
+NULL
+
+[[14]]
+NULL
+
+[[15]]
+NULL
+
+[[16]]
+NULL
+
+[[17]]
+NULL
+
+[[18]]
+NULL
+
+[[19]]
+NULL
+
+[[20]]
+NULL
+
+[[21]]
+NULL
+
+[[22]]
+NULL
+
+[[23]]
+NULL
+
+[[24]]
+NULL
+
+[[25]]
+NULL
+
+[[26]]
+NULL
+
+[[27]]
+NULL
+
+[[28]]
+NULL
+
+[[29]]
+NULL
+
+[[30]]
+NULL
+
+[[31]]
+NULL
+
+[[32]]
+NULL
+
+[[33]]
+NULL
+
+[[34]]
+NULL
+
+[[35]]
+NULL
+
+[[36]]
+NULL
+
+[[37]]
+NULL
+
+[[38]]
+NULL
+
+[[39]]
+NULL
+
+[[40]]
+NULL
+
+[[41]]
+NULL
+
+[[42]]
+NULL
+
+[[43]]
+NULL
+
+[[44]]
+NULL
+
+[[45]]
+NULL
+
+[[46]]
+NULL
+
+[[47]]
+NULL
+
+[[48]]
+NULL
+
+[[49]]
+NULL
+
+[[50]]
+NULL
+
+[[51]]
+NULL
+
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) StdEnv
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Loading packages
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+Beginning model script
+Loading packages
+Beginning model script
+Beginning model script
+Loading packages
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Beginning model script
+Beginning model script
+Loading packages
+Loading packages
+Loading packages
+Beginning model script
+Loading packages
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Loading required package: spData
+Loading required package: spData
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+Loading required package: spData
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Loading required package: spData
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+Loading required package: spData
+Loading required package: spData
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Loading required package: spData
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Loading required package: spData
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Loading required package: spData
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Error: package or namespace load failed for ‘spData’ in runHook(".onLoad", env, package.lib, package):
+ read failed on /gpfs/ysm/project/cohen_theodore/ena26/conda_envs/covrace_env_farnam/lib/R/library/terra/R/terra.rdb
+Error: package ‘spData’ could not be loaded
+Execution halted
+Error: package or namespace load failed for ‘spData’ in runHook(".onLoad", env, package.lib, package):
+ read failed on /gpfs/ysm/project/cohen_theodore/ena26/conda_envs/covrace_env_farnam/lib/R/library/terra/R/terra.rdb
+Error: package ‘spData’ could not be loaded
+Execution halted
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Loading required package: spData
+Error: package or namespace load failed for ‘spData’ in .doLoadActions(where, attach):
+ error in load action .__A__.1 for package terra: loadModule(module = "spat", what = TRUE, env = ns, loadNow = TRUE): Unable to load module "spat": undefined exports: walkCode, makeCodeWalker, showTree, makeConstantFolder, constantFold, isConstantValue, getAssignedVar, makeLocalsCollector, collectLocals, findLocals, findLocalsList, findFuncLocals, flattenAssignment, makeUsageCollector, collectUsage, findGlobals, checkUsage, checkUsageEnv, checkUsagePackage
+Error: package ‘spData’ could not be loaded
+Error: package or namespace load failed for ‘spData’ in .doLoadActions(where, attach):
+ error in load action .__A__.1 for package terra: loadModule(module = "spat", what = TRUE, env = ns, loadNow = TRUE): Unable to load module "spat": undefined exports: walkCode, makeCodeWalker, showTree, makeConstantFolder, constantFold, isConstantValue, getAssignedVar, makeLocalsCollector, collectLocals, findLocals, findLocalsList, findFuncLocals, flattenAssignment, makeUsageCollector, collectUsage, findGlobals, checkUsage, checkUsageEnv, checkUsagePackage
+Error: package ‘spData’ could not be loaded
+
+ *** caught bus error ***
+address 0x2b6750865a70, cause 'non-existent physical address'
+
+Traceback:
+ 1: stop(gettextf("package %s could not be loaded", sQuote(pkg)),     call. = FALSE, domain = NA)
+ 2: .getRequiredPackages2(pkgInfo, quietly = quietly)
+ 3: library(spdep)
+An irrecoverable exception occurred. R is aborting now ...
+--------------------------------------------------------------------------
+mpirun noticed that process rank 26 with PID 6754 on node c18n05 exited on signal 9 (Killed).
+--------------------------------------------------------------------------
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) StdEnv
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Beginning model script
+Loading packages
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Beginning model script
+Loading packages
+Loading packages
+Beginning model script
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Beginning model script
+Loading packages
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Beginning model script
+Loading packages
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Beginning model script
+Beginning model script
+Beginning model script
+Loading packages
+Loading packages
+Loading packages
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Beginning model script
+Loading packages
+Loading packages
+Beginning model script
+Beginning model script
+Loading packages
+Loading packages
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+Beginning model script
+Loading packages
+Beginning model script
+Loading packages
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+rgeos version: 0.5-9, (SVN revision 684)
+ GEOS runtime version: 3.10.1-CAPI-1.16.0 
+ Please note that rgeos will be retired by the end of 2023,
+plan transition to sf functions using GEOS at your earliest convenience.
+ GEOS using OverlayNG
+ Linking to sp version: 1.4-6 
+ Polygon checking: TRUE 
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Loading required package: spData
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+
+Attaching package: ‘dplyr’
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from ‘package:rgeos’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Loading required package: spData
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Loading required package: spData
+Loading required package: spData
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Loading required package: spData
+Loading required package: spData
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Loading required package: spData
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Loading required package: spData
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Loading required package: spData
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Loading required package: spData
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Loading required package: spData
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Loading required package: spData
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Loading required package: spData
+Loading required package: spData
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Linking to GEOS 3.10.1, GDAL 3.4.0, PROJ 8.2.0; sf_use_s2() is TRUE
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+Loading required package: spData
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+Loading required package: MASS
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: Rcpp
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+Loading required package: MASS
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: Rcpp
+Loading required package: MASS
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: Rcpp
+Loading required package: MASS
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: Rcpp
+Loading required package: MASS
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: Rcpp
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Loading required package: MASS
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: Rcpp
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+To access larger datasets in this package, install the spDataLarge
+package with: `install.packages('spDataLarge',
+repos='https://nowosad.github.io/drat/', type='source')`
+Loading required package: MASS
+Loading required package: MASS
+Loading required package: foreach
+
+Attaching package: ‘MASS’
+
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: iterators
+Loading required package: Rcpp
+Loading required package: Rcpp
+Loading required package: MASS
+Loading required package: Rmpi
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: Rcpp
+Loading required package: MASS
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: Rcpp
+Loading required package: MASS
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: Rcpp
+Loading required package: MASS
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: Rcpp
+Loading required package: MASS
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: Rcpp
+Loading required package: MASS
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: Rcpp
+Loading required package: MASS
+Loading required package: MASS
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+
+Attaching package: ‘MASS’
+
+Loading required package: Rcpp
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: Rcpp
+Loading required package: MASS
+Loading required package: MASS
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: Rcpp
+Loading required package: MASS
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: Rcpp
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: Rcpp
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: MASS
+Loading required package: MASS
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: Rcpp
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: Rcpp
+Loading required package: foreach
+Loading required package: MASS
+Loading required package: iterators
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: Rcpp
+Loading required package: Rmpi
+Loading required package: MASS
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: Rcpp
+Loading required package: MASS
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: Rcpp
+Loading required package: MASS
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: Rcpp
+Loading required package: MASS
+Loading required package: MASS
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: Rcpp
+Loading required package: MASS
+Loading required package: foreach
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: Rcpp
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: iterators
+Loading required package: Rcpp
+Loading required package: MASS
+Loading required package: Rmpi
+Loading required package: MASS
+
+Attaching package: ‘MASS’
+
+Loading required package: MASS
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: Rcpp
+Loading required package: MASS
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: Rcpp
+Loading required package: MASS
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: Rcpp
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: MASS
+Loading required package: Rcpp
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: Rcpp
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: Rcpp
+Loading required package: MASS
+Loading required package: MASS
+Loading required package: MASS
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: Rcpp
+
+Attaching package: ‘MASS’
+
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: Rcpp
+Loading required package: Rcpp
+Loading required package: foreach
+Loading required package: iterators
+Loading required package: Rmpi
+Loading required package: MASS
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: Rcpp
+Loading required package: MASS
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: Rcpp
+Loading required package: MASS
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: Rcpp
+Loading required package: MASS
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: Rcpp
+Loading required package: MASS
+Loading required package: MASS
+Loading required package: MASS
+Loading required package: MASS
+Loading required package: MASS
+Loading required package: MASS
+Loading required package: MASS
+
+Attaching package: ‘MASS’
+
+
+Attaching package: ‘MASS’
+
+
+Attaching package: ‘MASS’
+
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+
+Attaching package: ‘MASS’
+
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: Rcpp
+Loading required package: Rcpp
+Loading required package: Rcpp
+Loading required package: Rcpp
+Loading required package: Rcpp
+Loading required package: Rcpp
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: Rcpp
+Loading required package: MASS
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: Rcpp
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Loading required package: MASS
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: Rcpp
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Failed to query server: Operation not permitted
+Failed to query server: Operation not permitted
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: foreach
+Loading required package: iterators
+Loading required package: Rmpi
+Warning message:
+In system("timedatectl", intern = TRUE) :
+  running command 'timedatectl' had status 1
+Warning message:
+In system("timedatectl", intern = TRUE) :
+  running command 'timedatectl' had status 1
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: foreach
+Loading required package: iterators
+Loading required package: Rmpi
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: foreach
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: iterators
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Loading required package: Rmpi
+Creating blockgroup demographic dataframe
+Total blockgroups =  217685 
+Creating blockgroup spatial dataframe
+Reading layer `us-test-sites-nov-2020-with-neighbors' from data source 
+  `/gpfs/ysm/home/ena26/covrace/data/us-test-sites-nov-2020-with-neighbors.shp' 
+  using driver `ESRI Shapefile'
+Simple feature collection with 220333 features and 7 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -179.2311 ymin: 17.83151 xmax: 179.8597 ymax: 71.43979
+Geodetic CRS:  WGS 84

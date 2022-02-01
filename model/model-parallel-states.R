@@ -180,10 +180,7 @@ foreach(this_state=states, .packages=c("sf", "sp", "dplyr", "spdep", "CARBayes",
     script.end <- Sys.time()
     cat("Script complete - total elapsed time: ", (script.end - script.start)[3], "\n")
     
-    # save model summary results
-    cat(model, file=paste("/home/ena26/covrace/model/summary-results/", this_state, ".txt" , sep=""))
-    
-    # dump entire session stdout to slurm output file
+    # dump stdout to output file
     sink()
 }
 
