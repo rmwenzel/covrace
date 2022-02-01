@@ -28,7 +28,7 @@ registerDoMPI(cl)
 
 cat("Creating blockgroup demographic dataframe\n")
 # read in blockgroup demographic and provider data
-dem <- read.csv('/home/ena26/covrace/data/us-dem-counts-jan-2021-with-neighbors.csv', header=TRUE, colClasses=c("spatial_id"="character"))
+dem <- read.csv('../data/us-dem-counts-jan-2021-with-neighbors.csv', header=TRUE, colClasses=c("spatial_id"="character"))
 
 # select columns needed for model
 dem <- dem %>% dplyr::select(spatial_id, NativePercent, BlackNotHispPercent, HispanicPercent, Population, NumProviders)
@@ -49,7 +49,7 @@ cat("Creating blockgroup spatial dataframe\n")
 geom.start <- Sys.time()
 
 # read blockgroup geodata into sf dataframe
-geom.sf <- st_read('/home/ena26/covrace/data/us-test-sites-nov-2020-with-neighbors.shp')
+geom.sf <- st_read('../data/us-test-sites-nov-2020-with-neighbors.shp')
 
 # filter based on demographic dataframe
 geom.sf <- geom.sf[geom.sf$spatial_id %in% dem$spatial_id, ]
@@ -62,8 +62,7 @@ geom.sf <- geom.sf[geom.sf$spatial_id %in% dem$spatial_id, ]
 states <- unique(geom.sf$state)
 
 # begin loop
-foreach(this_state=states, .packages=c("sf", "sp", "dplyr", "spdep", "CARBayes", 
-                                       "rgeos", "tidyr")) %dopar% {
+results_df <- foreach(this_state=states, .packages=(.packages()), .combine="rbind") %dopar% {
 
     cat("Beginning analysis on US state", this_state)
     geom.sf <- geom.sf %>% filter(state == this_state)
@@ -83,7 +82,7 @@ foreach(this_state=states, .packages=c("sf", "sp", "dplyr", "spdep", "CARBayes",
     
     # create neighbors list
     neighbors_list.start <- Sys.time()
-    file_path <- paste("/home/ena26/covrace/data/neighbors_list_", this_state, ".rds", sep='')
+    file_path <- paste("../data/neighbors_list_", this_state, ".rds", sep='')
     if (file.exists(file_path)) {
       cat("Loading saved neighbors list\n")
       neighbors_list <- readRDS(file_path)
@@ -110,7 +109,7 @@ foreach(this_state=states, .packages=c("sf", "sp", "dplyr", "spdep", "CARBayes",
     
     # create neighbors matrix
     neighbors_matrix.start = Sys.time()
-    file_path = paste("/home/ena26/covrace/data/neighbors_matrix_", this_state, ".rds", sep='')
+    file_path = paste("../data/neighbors_matrix_", this_state, ".rds", sep='')
     if (file.exists(file_path)) {
       cat("Loading saved neighbors matrix\n")
       neighbors_matrix <- readRDS(file_path)
@@ -118,7 +117,7 @@ foreach(this_state=states, .packages=c("sf", "sp", "dplyr", "spdep", "CARBayes",
       if (length(neighbors_matrix) != length(neighbors_list)) {
         cat("Saved neighbors matrix incorrect size - rebuilding\n")
         neighbors_matrix <- nb2mat(neighbors_list, zero.policy = TRUE, style = "B")
-        saveRDS(neighbors_matrix, file="/home/ena26/covrace/data/neighbors_matrix.rds")
+        saveRDS(neighbors_matrix, file="../data/neighbors_matrix.rds")
         neighbors_matrix.end <- Sys.time()
         cat("Time to build neighbors matrix: ", (neighbors_matrix.end - neighbors_matrix.start)[3], "\n")
       }
@@ -136,7 +135,7 @@ foreach(this_state=states, .packages=c("sf", "sp", "dplyr", "spdep", "CARBayes",
     #
     
     model.start = Sys.time()
-    file_path = paste("/home/ena26/covrace/data/model_", this_state, ".rds", sep='')
+    file_path = paste("../data/model_", this_state, ".rds", sep='')
     if (file.exists(file_path)) {
       print("Loading saved model\n")
       model <- readRDS(file_path)
@@ -182,6 +181,11 @@ foreach(this_state=states, .packages=c("sf", "sp", "dplyr", "spdep", "CARBayes",
     
     # dump stdout to output file
     sink()
+    
+    # dataframe of model results
+    state_results_df <- as.data.frame(model$summary.results)
+    state_results_df$state <- this_state
+    state_results_df
 }
 
 ### Close down

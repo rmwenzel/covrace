@@ -17,7 +17,7 @@ library(CARBayes)
 
 cat("Creating blockgroup demographic dataframe", "\n")
 # read in blockgroup demographic and provider data
-dem <- read.csv('data/us-dem-counts-jan-2021-with-neighbors.csv', header=TRUE, colClasses=c("spatial_id"="character"))
+dem <- read.csv('../data/us-dem-counts-jan-2021-with-neighbors.csv', header=TRUE, colClasses=c("spatial_id"="character"))
 
 # select columns needed for model
 dem <- dem %>% dplyr::select(spatial_id, NativePercent, BlackNotHispPercent, HispanicPercent, Population, NumProviders)
@@ -38,7 +38,7 @@ cat("Creating blockgroup spatial dataframe", "\n")
 geom.start <- Sys.time()
 
 # read blockgroup geodata into sf dataframe
-geom.sf <- st_read('data/us-test-sites-nov-2020-with-neighbors.shp')
+geom.sf <- st_read('../data/us-test-sites-nov-2020-with-neighbors.shp')
 
 # filter based on demographic dataframe
 geom.sf <- geom.sf[geom.sf$spatial_id %in% dem$spatial_id, ]
@@ -70,7 +70,7 @@ cat("Time to build spatial dataframe: ", (geom.end - geom.start)[3], "\n")
 
 # create neighbors list
 neighbors_list.start <- Sys.time()
-file_path <- paste("data/neighbors_list_", this_state, ".rds", sep='')
+file_path <- paste("../data/neighbors_list_", this_state, ".rds", sep='')
 if (file.exists(file_path)) {
   cat("Loading saved neighbors list", "\n")
   neighbors_list <- readRDS(file_path)
@@ -97,7 +97,7 @@ if (file.exists(file_path)) {
 
 # create neighbors matrix
 neighbors_matrix.start = Sys.time()
-file_path = paste("data/neighbors_matrix_", this_state, ".rds", sep='')
+file_path = paste("../data/neighbors_matrix_", this_state, ".rds", sep='')
 if (file.exists(file_path)) {
   cat("Loading saved neighbors matrix", "\n")
   neighbors_matrix <- readRDS(file_path)
@@ -105,7 +105,7 @@ if (file.exists(file_path)) {
   if (length(neighbors_matrix) != length(neighbors_list)) {
     cat("Saved neighbors matrix incorrect size - rebuilding", "\n")
     neighbors_matrix <- nb2mat(neighbors_list, zero.policy = TRUE, style = "B")
-    saveRDS(neighbors_matrix, file="data/neighbors_matrix.rds")
+    saveRDS(neighbors_matrix, file="../data/neighbors_matrix.rds")
     neighbors_matrix.end <- Sys.time()
     cat("Time to build neighbors matrix: ", (neighbors_matrix.end - neighbors_matrix.start)[3], "\n")
   }
@@ -123,7 +123,7 @@ if (file.exists(file_path)) {
 #
 
 model.start = Sys.time()
-file_path = paste("data/model_", this_state, ".rds", sep='')
+file_path = paste("../data/model_", this_state, ".rds", sep='')
 if (file.exists(file_path)) {
   cat("Loading saved model", "\n")
   model <- readRDS(file_path)
