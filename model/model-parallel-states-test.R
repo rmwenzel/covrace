@@ -186,6 +186,9 @@ results_df <- foreach(this_state=states, .packages=(.packages()), .combine="rbin
     state_results_df <- data.frame(state=this_state)
 }
 
+# save results to disk
+write.csv(combined_results_df, "model-results/parallel-states-test.csv")
+
 ### Close down
 ##
 #
