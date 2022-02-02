@@ -184,6 +184,9 @@ results_df <- foreach(this_state=states, .packages=(.packages()), .combine="rbin
     
     # dummy for model results
     state_results_df <- data.frame(state=this_state)
+    state_results_df <- cbind(param = rownames(state_results_df), state_results_df)
+    rownames(state_results_df) <- NULL
+    state_results_df
 }
 
 # save results to disk

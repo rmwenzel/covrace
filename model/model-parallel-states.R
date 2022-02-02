@@ -185,6 +185,8 @@ results_df <- foreach(this_state=states, .packages=(.packages()), .combine="rbin
     # dataframe of model results
     state_results_df <- as.data.frame(model$summary.results)
     state_results_df$state <- this_state
+    state_results_df <- cbind(param = rownames(state_results_df), state_results_df)
+    rownames(state_results_df) <- NULL
     state_results_df
 }
 
