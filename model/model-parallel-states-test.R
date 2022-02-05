@@ -28,7 +28,7 @@ registerDoMPI(cl)
 
 cat("Creating blockgroup demographic dataframe\n")
 # read in blockgroup demographic and provider data
-dem <- read.csv('../data/us-dem-counts-jan-2021-with-neighbors.csv', header=TRUE, colClasses=c("spatial_id"="character"))
+dem <- read.csv('data/us-dem-counts-jan-2021-with-neighbors.csv', header=TRUE, colClasses=c("spatial_id"="character"))
 
 # select columns needed for model
 dem <- dem %>% dplyr::select(spatial_id, NativePercent, BlackNotHispPercent, HispanicPercent, Population, NumProviders)
@@ -49,7 +49,7 @@ cat("Creating blockgroup spatial dataframe\n")
 geom.start <- Sys.time()
 
 # read blockgroup geodata into sf dataframe
-geom.sf <- st_read('../data/us-test-sites-nov-2020-with-neighbors.shp')
+geom.sf <- st_read('data/us-test-sites-nov-2020-with-neighbors.shp')
 
 # filter based on demographic dataframe
 geom.sf <- geom.sf[geom.sf$spatial_id %in% dem$spatial_id, ]
@@ -61,10 +61,13 @@ geom.sf <- geom.sf[geom.sf$spatial_id %in% dem$spatial_id, ]
 # list of state 2 letter abbreviations
 states <- unique(geom.sf$state)
 
-# begin loop
-results_df <- foreach(this_state=states, .packages=(.packages()), .combine="rbind") %dopar% {
 
-    cat("Beginning test analysis on US state", this_state, file=paste(this_state, "test-summary.txt", sep='-'))
+# begin parallel loop, return list of dataframes
+combined_results_df <- foreach(this_state=states, .packages=(.packages()), .inorder=FALSE, .combine="bind_rows", .multicombine=TRUE,
+                            .verbose=TRUE) %dopar% {
+
+    cat("Beginning test analysis on US state", this_state)
+    # cat("Beginning test analysis on US state", this_state, file=paste(this_state, "test-summary.txt", sep='-'))
     # geom.sf <- geom.sf %>% filter(state == this_state)
     # dem <- dem %>% filter(spatial_id %in% geom.sf$spatial_id)
     
@@ -180,17 +183,20 @@ results_df <- foreach(this_state=states, .packages=(.packages()), .combine="rbin
     # cat("Script complete - total elapsed time: ", (script.end - script.start)[3], "\n")
     
     # dump stdout to output file
-    sink()
+    # sink()
     
     # dummy for model results
     state_results_df <- data.frame(state=this_state)
     state_results_df <- cbind(param = rownames(state_results_df), state_results_df)
     rownames(state_results_df) <- NULL
-    state_results_df
+    return(state_results_df)
 }
 
-# save results to disk
-write.csv(combined_results_df, file="./model-results/parallel-states-test.csv")
+# add numerical index
+combined_results_df <- tibble::rowid_to_column(combined_results_df, "ID")
+
+# save results to disk, use absolute path for farnam
+write.csv(combined_results_df, file="model/model-results/parallel-states-test-job%j.csv")
 
 ### Close down
 ##

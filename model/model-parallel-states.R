@@ -62,7 +62,7 @@ geom.sf <- geom.sf[geom.sf$spatial_id %in% dem$spatial_id, ]
 states <- unique(geom.sf$state)
 
 # begin loop
-results_df <- foreach(this_state=states, .packages=(.packages()), .combine="rbind") %dopar% {
+combined_results_df <- foreach(this_state=states, .packages=(.packages()), .combine="rbind") %dopar% {
 
     cat("Beginning analysis on US state", this_state)
     geom.sf <- geom.sf %>% filter(state == this_state)
