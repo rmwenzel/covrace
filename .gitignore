@@ -1,7 +1,11 @@
 .DS_Store
 AJPH-S-21-00386.pdf
 Chicago_testing.Rmd
-/data
+/data/dem
+/data/geom
 .R*
 *.yml
 /job-outputs
+*.Rproj
+.Rproj.user
+/.ipynb_checkpoints
