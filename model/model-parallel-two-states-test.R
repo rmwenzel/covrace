@@ -26,6 +26,7 @@ registerDoMPI(cl)
 ##
 #
 
+print(getwd())
 cat("Creating blockgroup demographic dataframe\n")
 # read in blockgroup demographic and provider data
 dem <- read.csv('data/us-dem-counts-jan-2021-with-neighbors.csv', header=TRUE, colClasses=c("spatial_id"="character"))
@@ -38,6 +39,7 @@ dem <- na.omit(dem)
 
 # scale independent variables but not offset
 dem <- dem %>% mutate_at(c("NativePercent", "BlackNotHispPercent", "HispanicPercent"), ~(scale(.) %>% as.vector))
+
 
 ### Geographic Data
 ##
@@ -54,17 +56,19 @@ geom.sf <- st_read('data/us-test-sites-nov-2020-with-neighbors.shp')
 # filter based on demographic dataframe
 geom.sf <- geom.sf[geom.sf$spatial_id %in% dem$spatial_id, ]
 
+
 ### Parallel loop over states
 ##
 #
 
-# list of state 2 letter abbreviations
-states <- unique(geom.sf$state)
+# list of two small states state 2 letter abbreviations
+test_states <- c("AK", "WA")
 
 # begin loop
-combined_results_df <- foreach(this_state=states, .packages=(.packages()), .combine="rbind") %dopar% {
+combined_results_df <- foreach(this_state=test_states, .packages=(.packages()), .inorder=FALSE, 
+                               .combine="bind_rows", .multicombine=TRUE, .verbose=TRUE) %dopar% {
 
-    cat("Beginning analysis on US state", this_state)
+    cat("Beginning test analysis on US state", this_state, file=paste(this_state, "test-summary.txt", sep='-'))
     geom.sf <- geom.sf %>% filter(state == this_state)
     dem <- dem %>% filter(spatial_id %in% geom.sf$spatial_id)
     
@@ -117,7 +121,7 @@ combined_results_df <- foreach(this_state=states, .packages=(.packages()), .comb
       if (length(neighbors_matrix) != length(neighbors_list)) {
         cat("Saved neighbors matrix incorrect size - rebuilding\n")
         neighbors_matrix <- nb2mat(neighbors_list, zero.policy = TRUE, style = "B")
-        saveRDS(neighbors_matrix, file="../data/neighbors_matrix.rds")
+        saveRDS(neighbors_matrix, file="data/neighbors_matrix.rds")
         neighbors_matrix.end <- Sys.time()
         cat("Time to build neighbors matrix: ", (neighbors_matrix.end - neighbors_matrix.start)[3], "\n")
       }
@@ -152,8 +156,8 @@ combined_results_df <- foreach(this_state=states, .packages=(.packages()), .comb
       
     } else {
       model <- S.CARleroux(formula = NumProviders ~ BlackNotHispPercent + HispanicPercent + NativePercent + offset(log(Population + 1)), 
-                           data = dem, family = "poisson", burnin = 100000, n.sample = 1100000, thin = 100, W = neighbors_matrix, 
-                           prior.mean.beta = rep(0, times = 4), prior.var.beta = rep(100^2, times = 4), prior.tau2 = c(0.01, 0.01))
+                          data = dem, family = "poisson", burnin = 100000, n.sample = 1100000, thin = 100, W = neighbors_matrix, 
+                          prior.mean.beta = rep(0, times = 4), prior.var.beta = rep(100^2, times = 4), prior.tau2 = c(0.01, 0.01))
       saveRDS(model, file=file_path)
       model.end <- Sys.time()
       cat("Time to fit model: ", (model.end - model.start)[3], "\n")
@@ -179,24 +183,26 @@ combined_results_df <- foreach(this_state=states, .packages=(.packages()), .comb
     script.end <- Sys.time()
     cat("Script complete - total elapsed time: ", (script.end - script.start)[3], "\n")
     
-    # dump stdout to output file
-    sink()
-    
+
     # dataframe of model results
     state_results_df <- as.data.frame(model$summary.results)
     state_results_df$state <- this_state
     state_results_df <- cbind(param = rownames(state_results_df), state_results_df)
     rownames(state_results_df) <- NULL
-    state_results_df
+    return(state_results_df)
 }
 
-# save results to disk
-write.csv(combined_results_df, file="model/model-results/parallel-states.csv")
+# add numerical index
+combined_results_df <- tibble::rowid_to_column(combined_results_df, "ID")
 
 
-### Close down
+### Save results and close down
 ##
 #
+
+
+# save results to disk
+write.csv(combined_results_df, file="model/model-results/parallel-two-states-test.csv")
 
 # close cluster
 closeCluster(cl)
