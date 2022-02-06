@@ -4,3 +4,4 @@ Chicago_testing.Rmd
 /data
 .R*
 *.yml
+/job-outputs

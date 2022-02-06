@@ -12,6 +12,9 @@ library(spdep)
 library(CARBayes)
 library(doMPI)
 
+print(paste("working directory is", getwd()))
+
+
 ### Set up parallelization
 ##
 #
@@ -183,7 +186,7 @@ combined_results_df <- foreach(this_state=states, .packages=(.packages()), .inor
     # cat("Script complete - total elapsed time: ", (script.end - script.start)[3], "\n")
     
     # dump stdout to output file
-    # sink()
+    # sink(file=paste("model/model-results/", this_state, "-summary.txt", sep=""))
     
     # dummy for model results
     state_results_df <- data.frame(state=this_state)
@@ -195,8 +198,8 @@ combined_results_df <- foreach(this_state=states, .packages=(.packages()), .inor
 # add numerical index
 combined_results_df <- tibble::rowid_to_column(combined_results_df, "ID")
 
-# save results to disk, use absolute path for farnam
-write.csv(combined_results_df, file="model/model-results/parallel-states-test-job%j.csv")
+# save results to disk
+write.csv(combined_results_df, file="model/model-results/parallel-states-test.csv")
 
 ### Close down
 ##

@@ -192,15 +192,16 @@ combined_results_df <- foreach(this_state=test_states, .packages=(.packages()), 
     # script.end <- Sys.time()
     # cat("Script complete - total elapsed time: ", (script.end - script.start)[3], "\n")
     
-    # dump stdout to output file
-    sink()
-    
     # dummy for model results
     state_results_df <- data.frame(state=this_state)
     state_results_df <- cbind(param = rownames(state_results_df), state_results_df)
     rownames(state_results_df) <- NULL
-    state_results_df
+    return(state_results_df)
 }
+
+# add numerical index
+combined_results_df <- tibble::rowid_to_column(combined_results_df, "ID")
+
 ```
 
 Save results and close down
