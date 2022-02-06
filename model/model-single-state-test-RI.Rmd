@@ -23,7 +23,7 @@ library(CARBayes)
 ```{r}
 cat("Creating blockgroup demographic dataframe\n")
 # read in blockgroup demographic and provider data
-dem <- read.csv('../data/us-dem-counts-jan-2021-with-neighbors.csv', header=TRUE, colClasses=c("spatial_id"="character"))
+dem <- read.csv('../data/us-dem-counts-jan-2021.csv', header=TRUE, colClasses=c("spatial_id"="character"))
 
 # select columns needed for model
 dem <- dem %>% dplyr::select(spatial_id, NativePercent, BlackNotHispPercent, HispanicPercent, Population, NumProviders)
@@ -40,7 +40,10 @@ cat("Creating blockgroup spatial dataframe\n")
 geom.start <- Sys.time()
 
 # read blockgroup geodata into sf dataframe
-geom.sf <- st_read('../data/us-test-sites-nov-2020-with-neighbors.shp')
+geom.sf <- st_read('../data/us-test-sites-nov-2020.shp')
+
+# split name in separate columns
+geom.sf <- geom.sf %>% separate(name, c("blockgroup", "county", "state"), sep = ",") %>% mutate(across(c("blockgroup", "county", "state"), trimws))
 
 # filter based on demographic dataframe
 geom.sf <- geom.sf[geom.sf$spatial_id %in% dem$spatial_id, ]
@@ -112,15 +115,15 @@ if (file.exists(file_path)) {
 
 ```{r}
 # get and output areas with no neighbors
-# no_neighbors_indices <- which(rowSums(neighbors_matrix) == 0, arr.ind = TRUE)
-# cat("For state", this_state, "these blockgroups have no neighbors: ")
-# for (i in no_neighbors_indices){
-#   cat(geom.sf[i,]$name)
-# }
+no_neighbors_indices <- which(rowSums(neighbors_matrix) == 0, arr.ind = TRUE)
+cat("For state", this_state, "these blockgroups have no neighbors: ")
+for (i in no_neighbors_indices){
+  cat(geom.sf[i,]$name)
+}
 
 # drop areas with no neighbors
-# dem <= dem[-no_neighbors_indices,]
-# neighbors_matrix <- neighbors_matrix[-no_neighbors_indices,]
+dem <- dem[-no_neighbors_indices,]
+neighbors_matrix <- neighbors_matrix[-no_neighbors_indices,-no_neighbors_indices]
 
 # run model
 model.start = Sys.time()

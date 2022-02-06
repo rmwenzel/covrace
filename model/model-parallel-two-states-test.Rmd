@@ -5,6 +5,9 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
 sink(stdout(), type = 'message')
 script.start <- proc.time()
 cat("Beginning model script\n")
@@ -24,48 +27,14 @@ library(doMPI)
 Set up parallelization
 
 ```{r}
-# create MPI cluster objects for states
+# create MPI cluster objects for two states
 cl <- startMPIcluster(count=2)
 
 # register cluster with foreach - sets doMPI as parallel backend
 registerDoMPI(cl)
 ```
 
-Demographic data
-
-```{r}
-
-cat("Creating blockgroup demographic dataframe\n")
-# read in blockgroup demographic and provider data
-dem <- read.csv('../data/us-dem-counts-jan-2021-with-neighbors.csv', header=TRUE, colClasses=c("spatial_id"="character"))
-
-# select columns needed for model
-dem <- dem %>% dplyr::select(spatial_id, NativePercent, BlackNotHispPercent, HispanicPercent, Population, NumProviders)
-
-# drop blockgroups are missing population datawrite
-dem <- na.omit(dem)
-
-# scale independent variables but not offset
-dem <- dem %>% mutate_at(c("NativePercent", "BlackNotHispPercent", "HispanicPercent"), ~(scale(.) %>% as.vector))
-```
-
-Geographic Data
-
-```{r}
-
-cat("Total blockgroups = ", nrow(dem), "\n")
-
-cat("Creating blockgroup spatial dataframe\n")
-geom.start <- Sys.time()
-
-# read blockgroup geodata into sf dataframe
-geom.sf <- st_read('../data/us-test-sites-nov-2020-with-neighbors.shp')
-
-# filter based on demographic dataframe
-geom.sf <- geom.sf[geom.sf$spatial_id %in% dem$spatial_id, ]
-```
-
-
+Functions
 Parallel loop over states
 
 ```{r}
@@ -75,30 +44,29 @@ test_states <- c("HI", "RI")
 
 # begin loop
 combined_results_df <- foreach(this_state=test_states, .packages=(.packages()), .inorder=FALSE, 
-                               .combine="bind_rows", .multicombine=TRUE, .verbose=TRUE) %dopar% {
+                               .combine="bind_rows", .multicombine=TRUE, .verbose=FALSE, 
+                               .errorhandling="pass") %dopar% {
 
-    cat("Beginning test analysis on US state", this_state, file=paste(this_state, "test-summary.txt", sep='-'))
-   geom.sf <- geom.sf %>% filter(state == this_state)
-    dem <- dem %>% filter(spatial_id %in% geom.sf$spatial_id)
-    
-    # convert to spatial polygons dataframe
-    geom.sp <- as(geom.sf, "Spatial")
-    
-    # drop blockgroups with missing pop
-    geom.sp <- geom.sp[geom.sp$spatial_id %in% dem$spatial_id, ]
-    geom.end <- Sys.time()
-    cat("Time to build spatial dataframe: ", (geom.end - geom.start)[3], "\n")
+    cat("Beginning test analysis on US state", this_state)
+                                 
+    # load demographic and geographic data object
+    this_state_dem <- readRDS(paste("../data/dem/", this_state, "-dem-counts-jan-2021-clean.rds", sep=""))
+    this_state_geom <- readRDS(paste("../data/geom/", this_state, "-test-sites-nov-2020-clean.rds", sep=""))
     
     ### Geographic Areas Neighbors List
     ##
     #
     
     # create neighbors list
-    neighbors_list.start <- Sys.time()
-    file_path <- paste("data/neighbors_list_", this_state, ".rds", sep='')
-    if (file.exists(file_path)) {
-      cat("Loading saved neighbors list\n")
-      neighbors_list <- readRDS(file_path)
+    state_nb_list.start <- Sys.time()
+    file_path <- paste("../data/neighbors/neighbors_list_", this_state, ".rds", sep='')
+    loaded <- FALSE
+    condition <- tryCatch(
+      cat(paste("Attempting to load saved neighbors list for", this_state))
+      state_nb_list <- readRDS(file_path)
+      error = function(c) paste("Error: could not find neighbors list at ", file_path)
+    )
+    loaded
       
       if (length(neighbors_list) != length(geom.sp)) {
         cat("Saved neighbors list incorrect size - rebuilding\n")
@@ -122,7 +90,7 @@ combined_results_df <- foreach(this_state=test_states, .packages=(.packages()), 
     
     # create neighbors matrix
     neighbors_matrix.start = Sys.time()
-    file_path = paste("data/neighbors_matrix_", this_state, ".rds", sep='')
+    file_path = paste("../data/neighbors_matrix_", this_state, ".rds", sep='')
     if (file.exists(file_path)) {
       cat("Loading saved neighbors matrix\n")
       neighbors_matrix <- readRDS(file_path)
@@ -130,7 +98,10 @@ combined_results_df <- foreach(this_state=test_states, .packages=(.packages()), 
       if (length(neighbors_matrix) != length(neighbors_list)) {
         cat("Saved neighbors matrix incorrect size - rebuilding\n")
         neighbors_matrix <- nb2mat(neighbors_list, zero.policy = TRUE, style = "B")
-        saveRDS(neighbors_matrix, file="data/neighbors_matrix.rds")
+        # drop areas with no neighbors
+        dem <- dem[-no_neighbors_indices,]
+        neighbors_matrix <- neighbors_matrix[-no_neighbors_indices,-no_neighbors_indices]
+        saveRDS(neighbors_matrix, file=file_path)
         neighbors_matrix.end <- Sys.time()
         cat("Time to build neighbors matrix: ", (neighbors_matrix.end - neighbors_matrix.start)[3], "\n")
       }
@@ -138,6 +109,10 @@ combined_results_df <- foreach(this_state=test_states, .packages=(.packages()), 
     } else {
       cat("Building neighbors matrix\n")
       neighbors_matrix <- nb2mat(neighbors_list, zero.policy = TRUE, style = "B")
+      no_neighbors_indices <- which(rowSums(neighbors_matrix) == 0, arr.ind = TRUE)
+      # drop areas with no neighbors
+      dem <- dem[-no_neighbors_indices,]
+      neighbors_matrix <- neighbors_matrix[-no_neighbors_indices,-no_neighbors_indices]
       saveRDS(neighbors_matrix, file=file_path)
       neighbors_matrix.end <- Sys.time()
       cat("Time to build neighbors matrix: ", (neighbors_matrix.end - neighbors_matrix.start)[3], "\n")
@@ -148,7 +123,7 @@ combined_results_df <- foreach(this_state=test_states, .packages=(.packages()), 
     #
     
     model.start = Sys.time()
-    file_path = paste("data/model_", this_state, ".rds", sep='')
+    file_path = paste("../data/model_", this_state, ".rds", sep='')
     if (file.exists(file_path)) {
       print("Loading saved model\n")
       model <- readRDS(file_path)
@@ -156,7 +131,7 @@ combined_results_df <- foreach(this_state=test_states, .packages=(.packages()), 
       if (length(model$fitted.values) != length(neighbors_matrix)) {
         print("Saved model incorrect size - refitting\n")
         model <- S.CARleroux(formula = NumProviders ~ BlackNotHispPercent + HispanicPercent + NativePercent + offset(log(Population + 1)), 
-                             data = dem, family = "poisson", burnin = 100000, n.sample = 1100000, thin = 100, W = neighbors_matrix, 
+                             data = dem, family = "poisson", burnin = 10, n.sample = 20, thin = 1, W = neighbors_matrix, 
                              prior.mean.beta = rep(0, times = 4), prior.var.beta = rep(100^2, times = 4), prior.tau2 = c(0.01, 0.01))
         saveRDS(model, file=file_path)
         model.end <- Sys.time()
@@ -165,7 +140,7 @@ combined_results_df <- foreach(this_state=test_states, .packages=(.packages()), 
       
     } else {
       model <- S.CARleroux(formula = NumProviders ~ BlackNotHispPercent + HispanicPercent + NativePercent + offset(log(Population + 1)), 
-                          data = dem, family = "poisson", burnin = 100000, n.sample = 1100000, thin = 100, W = neighbors_matrix, 
+                          data = dem, family = "poisson", burnin = 10, n.sample = 20, thin = 1, W = neighbors_matrix, 
                           prior.mean.beta = rep(0, times = 4), prior.var.beta = rep(100^2, times = 4), prior.tau2 = c(0.01, 0.01))
       saveRDS(model, file=file_path)
       model.end <- Sys.time()

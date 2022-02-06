@@ -1,0 +1,119 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+Loading packages
+
+```{r}
+library(sp)
+library(rgeos)
+library(dplyr)
+library(tidyr)
+library(sf)
+library(spdep)
+library(doMPI)
+```
+
+Cleaning and transform demographic data
+
+```{r}
+
+# read in blockgroup demographic and provider data, zero population blockgroups ommitted
+dem <- read.csv('dem/us-dem-counts-jan-2021.csv', header=TRUE, colClasses=c("spatial_id"="character"))
+
+# select columns needed for model
+dem <- dem %>% dplyr::select(spatial_id, name.x, NativePercent, BlackNotHispPercent, HispanicPercent, Population, NumProviders)
+
+# omit rows with missing values (all are in Population column)
+dem <- na.omit(dem)
+
+# omit rows with zero population
+dem <- dem %>% filter(Population != 0)
+
+# split name into separate columns
+dem <- dem %>% separate(name.x, c("blockgroup", "county", "state"), sep = ",") %>% mutate(across(c("blockgroup", "county", "state"), trimws))
+
+# scale independent variables but not offset
+dem <- dem %>% mutate_at(c("NativePercent", "BlackNotHispPercent", "HispanicPercent"), ~(scale(.) %>% as.vector))
+
+# save to disk as rds object
+saveRDS(dem, file="dem/us-dem-counts-jan-2021-clean.rds")
+
+```
+
+
+Cleaning and transforming geographic data
+
+```{r}
+
+# read blockgroup geodata into sf dataframe
+geom.sf <- st_read('geom/us-test-sites-nov-2020.shp')
+
+# filter based on demographic dataframe
+geom.sf <- geom.sf[geom.sf$spatial_id %in% dem$spatial_id, ]
+
+# split name into separate columns
+geom.sf <- geom.sf %>% separate(name, c("blockgroup", "county", "state"), sep = ",") %>% mutate(across(c("blockgroup", "county", "state"), trimws))
+
+# convert to spatial polygons dataframe
+geom.sp <- as(geom.sf, "Spatial")
+
+# save as RDS for fast loading and saving
+saveRDS(geom.sp, file="geom/us-test-sites-nov-2020-clean.rds")
+
+```
+
+Split data in equal size groups to distribute across cores
+
+```{r}
+
+# get sorted list of state blockgroup counts
+state_bg_counts <- dem %>% count(state) %>% arrange(n)
+
+# split into roughly equal groups by count, one less than avilable cores
+num_cores <- parallel::detectCores()
+num_groups <- num_cores - 1
+state_groups <- vector("list", num_groups)
+
+for (i in c(1:num_groups)) {
+  # get evenly spaced indices
+  indices <- seq(from=i, to=length(state_bg_counts$n), by=num_groups)
+  # subset states with these indices
+  group <- state_bg_counts %>% slice(indices) %>% pull(state)
+  # add to group list
+  state_groups[[i]] <- group
+}
+
+print(state_groups)
+```
+
+
+Parallelizing across groups, split data by state for later parallel model fitting
+
+```{r}
+
+# create MPI cluster objects for states
+cl <- startMPIcluster(count=num_cores)
+
+# register cluster with foreach - sets doMPI as parallel backend
+registerDoMPI(cl)
+
+# parallelize across state groups
+foreach(this_group=state_groups, .packages=(.packages()), .inorder=FALSE, .verbose=FALSE,
+        .errorhandling="pass") %dopar% {
+  
+  # iterate over states in group
+  for (this_state in this_group){
+    # filter demographic data
+    this_state_dem <- dem %>% filter(state == this_state)
+    # filter geomgraphic dataframe
+    this_state_geom.sf <- geom.sf %>% filter(state == this_state)
+    # convert to spatial polygons dataframe
+    this_state_geom.sp <- as(this_state_geom.sf, "Spatial")
+    # save as RDS for fast loading and saving
+    saveRDS(this_state_dem, file=paste("dem/", this_state, "-dem-counts-jan-2021-clean.rds", sep=""))
+    saveRDS(this_state_geom.sp, file=paste("geom/", this_state, "-test-sites-nov-2020-clean.rds", sep=""))
+    }
+}
+```

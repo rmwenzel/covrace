@@ -8,4 +8,5 @@ Chicago_testing.Rmd
 /job-outputs
 *.Rproj
 .Rproj.user
-/.ipynb_checkpoints
+.ipynb_checkpoints
+/data/.ipynb_checkpoints
