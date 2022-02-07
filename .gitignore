@@ -15,7 +15,13 @@ Chicago_testing.Rmd
 
 # Python
 /job-analysis/__pycache__
+
+# Jupyter
 /job-analysis/.ipynb_checkpoints
+*.ipynb
 
 # PyCharm
 /job-analysis/.idea
+
+# Job analysis, now need to make public, only needed locally for now
+/job-analysis
