@@ -25,3 +25,9 @@ Chicago_testing.Rmd
 
 # Job analysis, now need to make public, only needed locally for now
 /job-analysis
+
+# shell
+example_job.sh
+
+# slurm
+*out.txt
