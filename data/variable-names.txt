@@ -1,0 +1,4 @@
+VALUE0	% Population, Not Hispanic, American Indian and Alaska Native Alone, 2020
+VALUE1	% Population, Not Hispanic, Black Alone, 2020
+VALUE2	% Hispanic Population, 2020
+VALUE3	# Population, 2020

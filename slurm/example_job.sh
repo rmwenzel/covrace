@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --job-name=example_job
-#SBATCH --out="slurm-%j.out"
+#SBATCH --out="/home/ena26/covrace/slurm-files/job-outputs/example_job-%j.out"
 #SBATCH --time=01:00
 #SBATCH --nodes=1 --ntasks=1 --cpus-per-task=2
 #SBATCH --mem-per-cpu=5G
