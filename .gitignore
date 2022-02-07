@@ -1,5 +1,21 @@
+# Mac OS
 .DS_Store
+
+# Non relevant and old project files
 AJPH-S-21-00386.pdf
 Chicago_testing.Rmd
+
+# big files
 /data
+
+# R
 .R*
+.Rproj*
+*.Rproj
+
+# Python
+/job-analysis/__pycache__
+/job-analysis/.ipynb_checkpoints
+
+# PyCharm
+/job-analysis/.idea
