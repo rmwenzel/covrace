@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --ntasks=50 
 #SBATCH --cpus-per-task=1
-#SBATCH --mem-per-cpu=5g
+#SBATCH --mem-per-cpu=10g
 #SBATCH --job-name='parallel-clean-and-preprocess'
 #SBATCH --output='/home/ena26/covrace/slurm-files/job-outputs/parallel-clean-and-preprocess-job%j-out.txt'
 #SBATCH --open-mode=append
